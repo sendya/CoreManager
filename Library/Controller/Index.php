@@ -6,13 +6,14 @@
 
 namespace Controller;
 
+use Core\Error;
 use Core\Template;
 
 class Index
 {
     function index()
     {
-        include Template::load('Demo');
+        throw new Error('Welcome', 405);
     }
 
     /**

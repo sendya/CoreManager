@@ -11,7 +11,7 @@ if (!defined('ROOT_PATH')) {
 /**
  * Site Name
  */
-define('SITE_NAME', 'Love Wow');
+define('SITE_NAME', 'Love WOW');
 
 /**
  * Rewrite setting:
@@ -24,7 +24,7 @@ define('USE_REWRITE', true);
  * This key is used to encrypt password and other information.
  * Don't touch it after application install finished.
  */
-define('ENCRYPT_KEY', '-Fw5^.}3fY4TtAU_wZe-1k1qtu3NKS');
+define('ENCRYPT_KEY', 'Please generate key and paste here');
 
 /**
  * HTTPS support:
@@ -43,6 +43,7 @@ define('DEBUG_ENABLE', true);
  * To manually config this, uncomment the following line and change the URL
  * To use auto detect, keep this commented
  */
+// define('BASE_URL', 'http://www.kookxiang.com');
 Core\Request::autoDetectBaseURL();
 
 /**
